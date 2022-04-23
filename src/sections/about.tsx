@@ -13,7 +13,7 @@ function about() {
           <h2 className="about-title">I am a web developer based in Kenya.</h2>
           <p className="about-paragraph">
               Hello! My name is Mike and I have a passion for creating things that live on the Internet.My interest in software development started back in 2019 when I started learning C programming language. <br /> 
-              Fast-forward to today and I've had the privilege of building various products for my  clients.My main focus these days is building accessible,inclusive and digital experiences.
+              Fast-forward to today and I've had the privilege of building various products for my  clients.My main focus these days is building accessible,inclusive and human centered applications.
           </p>
           <a className="about-btn" href='michael njuguna CV.pdf'>Download CV</a> 
         </div>

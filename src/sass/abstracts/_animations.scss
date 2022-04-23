@@ -31,7 +31,7 @@
 }
 
 .stick-2__anim {
-display:none;
+    display: none;
 }
 
 .stick-3__anim {
@@ -41,26 +41,28 @@ display:none;
     animation-fill-mode: forwards;
 }
 
-.display-nav{
-    display:flex !important;
+.display-nav {
+    display: flex !important;
 }
 
 
 // navbar animations
 @keyframes smNavAnim {
-    0%{
-opacity: 0;
+    0% {
+        opacity: 0;
     }
-    100%{
-opacity: 1;
+
+    100% {
+        opacity: 1;
     }
 }
 
 @keyframes lgNavAnim {
-    0%{
-transform: translateY(-5rem);
+    0% {
+        transform: translateY(-5rem);
     }
-    100%{
-transform:none;
+
+    100% {
+        transform: none;
     }
 }
