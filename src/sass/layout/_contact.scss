@@ -1,0 +1,101 @@
+.contact {
+    background-color: $CTAColor;
+   min-height: 80vh;
+    width: 100vw;
+
+    .contact-content {
+        padding: $mainPadding;
+
+        h2 {
+            color: $primaryBackground;
+            font-family: $headerFont;
+            font-size: 1.6rem;
+        }
+
+        h1 {
+            @include header;
+
+        }
+
+        p {
+            color: $primaryBackground;
+            font-family: $paragraphFont;
+            font-size: 1.6rem;
+            margin-block: 1rem;
+        }
+
+        .contact-info {
+            margin-bottom: 1rem;
+
+            li {
+                list-style: none;
+                display: block;
+
+                a {
+                    color: $textColor;
+                    font-size: 1.6rem;
+                    font-family: $paragraphFont;
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        .contact-icon {
+            margin-bottom: 5rem;
+
+            li {
+                display: inline-block;
+                list-style: none;
+                text-decoration: none;
+                height: 4rem;
+                background-color: $primaryBackground;
+                width: 4rem;
+                border-radius: 50%;
+                margin-right: .5rem;
+                margin-block: 1rem;
+                transition-property: all;
+                transition-duration:$animationDuration;
+                transition-timing-function: $animationTiming;
+                &:hover {
+                    transform: translateY(-.5rem);
+
+                    a {
+                        color: $CTAColor;
+
+
+                    }
+                }
+
+                a {
+                    color: $textColor;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 1rem;
+                    font-size: 2rem;
+
+                }
+            }
+        }
+
+        .contact-btn {
+            background-color: $textColor;
+            border: solid $textColor $borderWidth;
+            border-radius: $borderRadius;
+            color: $primaryBackground;
+            font-family: $headerFont;
+            font-size: 1.6rem;
+            font-weight: bold;
+            padding: 1rem;
+            text-decoration: none;
+            transition-property: all;
+            transition-duration: $animationDuration;
+            transition-timing-function: $animationTiming;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,8 @@
+body{
+    line-height:1.5;
+    letter-spacing: .2rem;
+}
+::selection{
+    background-color:$textColor;
+    color:$CTAColor;
+}

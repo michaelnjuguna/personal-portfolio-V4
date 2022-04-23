@@ -1,0 +1,16 @@
+@mixin animation {
+    animation-duration:$animationDuration;
+    animation-timing-function: $animationTiming;
+}
+
+@mixin select {
+    background-color:$textColor;
+    color:$CTAColor;
+}
+
+@mixin header(){
+    font-family: $headerFont;
+    font-size:3rem;
+    color: $textColor;
+    font-weight: bold;
+}

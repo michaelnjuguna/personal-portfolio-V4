@@ -1,0 +1,49 @@
+.lg-navbar__items{
+    .navbar-brand{
+        position: relative;
+        z-index: 10;
+        .logo-borders{
+            display: inline-block;
+            div{
+                // border:5px solid $CTAColor;
+                display: inline-block;
+                height:2rem;
+                width:2rem;
+            }
+            .d-1{
+                border-top: 5px solid $textColor;
+                border-left: 5px solid $textColor;
+                border-radius: $borderRadius;
+                margin-right:1rem;
+                margin-bottom: 1rem;
+            }
+            .d-2{
+                border-top: 5px solid $CTAColor;
+                border-right: 5px solid $CTAColor;
+                border-radius: $borderRadius;
+                margin-bottom: 1rem;
+            }
+            .d-3{
+                border-bottom: 5px solid $CTAColor;
+                border-left: 5px solid $CTAColor;
+                border-radius: $borderRadius;
+                margin-right: 1rem;
+            }
+            .d-4{
+                border-bottom: 5px solid $textColor;
+                border-right: 5px solid $textColor;
+                border-radius: $borderRadius;
+            }
+
+        }
+        .brand-name{
+            color:$CTAColor;
+            font-weight: bold;
+            font-family: $headerFont;
+            font-size: 3rem;
+            top:.8rem;
+            left:1rem;
+            position: absolute;
+        }
+    }
+}

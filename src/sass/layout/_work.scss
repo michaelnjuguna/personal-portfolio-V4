@@ -1,0 +1,204 @@
+.work {
+    background-color: $primaryBackground;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    .work-content {
+        padding: $mainPadding;
+
+        .about-header {
+            @include header;
+            padding-bottom: 2rem;
+        }
+
+        .main-work {
+            display: flex;
+            align-items: bottom;
+            justify-content: space-around;
+            flex-direction: row;
+
+            .main-work__card {
+                background-color: $secondaryBackground;
+                border-radius: $borderRadius;
+                height: 50rem;
+                width: 30%;
+                padding-bottom: 4rem;
+                transition-property: all;
+                transition-timing-function: $animationDuration;
+                transition-duration: $animationDuration;
+                position: relative;
+
+                &:hover {
+                    transform: translateY(-1rem);
+                }
+
+                img {
+                    border-radius: 4px 4px 0 0;
+                    width: 100%;
+                }
+
+                .title {
+                    color: $textColor;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    font-family: $headerFont;
+                    padding: 0 5%;
+                }
+
+                .description {
+                    color: $textColor;
+                    font-family: $paragraphFont;
+                    font-size: 1.6rem;
+                    opacity: $mainOpacity;
+                    padding: 1rem 0 2rem 5%;
+                }
+
+                .main-work__links {
+                    position: absolute;
+                    bottom: 1rem;
+                    width: 100%;
+                }
+
+                .site-link {
+                    padding: 1rem;
+                    Background-color: $CTAColor;
+                    border: solid $CTAColor $borderWidth;
+                    border-radius: $borderRadius;
+                    color: $textColor;
+                    display: block;
+                    font-family: $headerFont;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    padding: 1rem;
+                    transition-property: all;
+                    transition-duration: $animationDuration;
+                    transition-timing-function: $animationTiming;
+                    text-decoration: none;
+                    margin: 2rem 5%;
+                    width: 60%;
+
+                    &:hover {
+                        background-color: transparent;
+                        color: $textColor;
+                    }
+
+
+                }
+
+                .github-link {
+                    padding: 1rem;
+                    Background-color: $CTAColor;
+                    border: solid $CTAColor $borderWidth;
+                    border-radius: $borderRadius;
+                    color: $textColor;
+                    display: block;
+                    font-family: $headerFont;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    padding: 1rem;
+                    transition-property: all;
+                    transition-duration: $animationDuration;
+                    transition-timing-function: $animationTiming;
+                    text-decoration: none;
+                    margin: 2rem 5%;
+                    width: 60%;
+
+                    &:hover {
+                        background-color: transparent;
+                        color: $textColor;
+                    }
+                }
+
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .main-work {
+                flex-direction: column;
+
+                .main-work__card {
+                    margin-bottom: 4rem;
+                    width: 90%;
+                }
+            }
+        }
+
+        // other projects
+        .about-sub__header {
+            @include header;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+            opacity: $mainOpacity;
+
+        }
+
+        .sub-work {
+            display: flex;
+            flex-direction: row;
+
+            .sub-work__card {
+                background-color: $secondaryBackground;
+                height: 25rem;
+                margin: 1rem;
+                transition-property: all;
+                transition-duration: $animationDuration;
+                transition-timing-function: $animationTiming;
+                padding: 2rem 4rem;
+                width: 30%;
+
+                // hover
+                &:hover {
+                    transform: translateY(-1rem);
+                }
+
+                .links {
+                    a {
+                        color: $textColor;
+                        font-size: 2rem;
+                        margin-right: 1rem;
+                        transition-property: all;
+                        transition-duration: $animationDuration;
+                        transition-timing-function: $animationTiming;
+
+                        // hover
+                        &:hover {
+                            color: $CTAColor;
+                        }
+                    }
+                }
+
+                h1 {
+                    color: $textColor;
+                    font-size: 1.6rem;
+                    font-family: $headerFont;
+                    margin-block: 1rem;
+                }
+
+                p {
+                    color: $textColor;
+                    font-size: 1.6rem;
+                    font-family: $paragraphFont;
+                    opacity: $mainOpacity;
+                }
+
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .sub-work {
+                flex-direction: column;
+
+                .sub-work__card {
+                    margin-bottom: 4rem;
+                    width: 90%;
+                }
+            }
+        }
+        .about-work {
+            color:$CTAColor;
+            font-family: $paragraphFont;
+            font-size: 2rem;
+            margin-block: 1rem;
+        }
+    }
+}

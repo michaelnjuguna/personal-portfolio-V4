@@ -1,0 +1,123 @@
+.header {
+    background-color: $primaryBackground;
+    min-height: 100vh;
+    padding: $mainPadding;
+    position: relative;
+
+
+
+    .header-content {
+        position: relative;
+
+        .intro {
+            color: $CTAColor;
+            font-size: 1.6rem;
+            font-family: $paragraphFont;
+            text-align: left;
+        }
+
+        .name {
+            color: $textColor;
+            font-size: 8vw;
+            font-family: $paragraphFont;
+            font-weight: bold;
+
+            .letter {
+                transition-property: all;
+                transition-duration: $animationDuration;
+                transition-timing-function: $animationTiming;
+                &:hover {
+                    color: $CTAColor;
+                    font-style: italic;
+                    font-size: 8.2vw;
+                }
+            }
+        }
+
+        .info-start {
+            color: $textColor;
+            font-size: 6vw;
+            font-family: $paragraphFont;
+            font-weight: bold;
+            opacity: $mainOpacity;
+        }
+
+        .info-main {
+            color: $textColor;
+            font-size: 1.5rem;
+            font-family: $paragraphFont;
+            margin-bottom: 4rem;
+            opacity: .9;
+
+            a {
+                color: $CTAColor;
+                font-size: 1.5rem;
+                font-family: $paragraphFont;
+                text-decoration: none;
+                transition-property: all;
+                transition-duration: $animationDuration;
+                transition-timing-function: $animationTiming;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .header-contact {
+            border-style: solid;
+            border-color: $CTAColor;
+            border-width: $borderWidth;
+            border-radius: $borderRadius;
+            background-color: $primaryBackground;
+            color: $CTAColor;
+            font-family: $paragraphFont;
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 1rem;
+            transition-property: all;
+            transition-duration: $animationDuration;
+            transition-timing-function: $animationTiming;
+        }
+
+        .header-contact:hover {
+            background-color: $secondaryBackground;
+            color: $textColor;
+        }
+
+        .media-links {
+            display: flex;
+            flex-direction: column;
+            font-family: $paragraphFont;
+            font-size: 2rem;
+            margin-top: 1rem;
+            position: absolute;
+            right: 0;
+            bottom: 4vh;
+
+            a {
+                color: $textColor;
+                margin-top: 1rem;
+                transition-property: all;
+                transition-duration: $animationDuration;
+                transition-timing-function: $animationTiming;
+            }
+
+            a:hover {
+                color: $CTAColor;
+                transform: translateY(-.2rem);
+            }
+
+            @media only screen and (max-width:1300px) {
+                a {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.header::selection {
+    @include select;
+}

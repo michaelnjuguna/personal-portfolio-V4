@@ -1,0 +1,66 @@
+// hambuger animations
+@keyframes stickOneMove {
+    0% {
+        transform: none;
+    }
+
+    100% {
+        transform: rotateZ(60deg);
+    }
+}
+
+
+@keyframes stickThreeMove {
+    0% {
+        transform: none;
+    }
+
+    100% {
+        transform: rotateZ(-60deg);
+    }
+}
+
+.stick-1__anim {
+    animation-name: stickOneMove;
+    animation-duration: $animationDuration;
+    animation-timing-function: $animationDuration;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 2rem;
+
+}
+
+.stick-2__anim {
+display:none;
+}
+
+.stick-3__anim {
+    animation-name: stickThreeMove;
+    animation-duration: $animationDuration;
+    animation-timing-function: $animationDuration;
+    animation-fill-mode: forwards;
+}
+
+.display-nav{
+    display:flex !important;
+}
+
+
+// navbar animations
+@keyframes smNavAnim {
+    0%{
+opacity: 0;
+    }
+    100%{
+opacity: 1;
+    }
+}
+
+@keyframes lgNavAnim {
+    0%{
+transform: translateY(-5rem);
+    }
+    100%{
+transform:none;
+    }
+}

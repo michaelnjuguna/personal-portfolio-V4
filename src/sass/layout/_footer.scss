@@ -1,0 +1,15 @@
+.footer{
+    background-color: $secondaryBackground;
+    min-height: 20vh;
+    width: 100vw;
+    .footer-content{
+        padding: $mainPadding;
+        a{
+            color: $textColor;
+            font-size: 1.4rem;
+            font-family: $paragraphFont;
+            text-decoration: none;
+            opacity: $mainOpacity;
+        }
+    }
+}
