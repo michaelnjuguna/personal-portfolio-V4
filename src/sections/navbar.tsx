@@ -2,15 +2,18 @@ import React from 'react';
 
 function navbar() {
   function changeHambuger() {
+    const smallNav = document.querySelector('.sm-navbar__items') as HTMLElement; 
     const stickOne = document.querySelector('.stick-1') as HTMLElement;
     const stickTwo = document.querySelector('.stick-2') as HTMLElement;
     const stickThree = document.querySelector('.stick-3') as HTMLElement;
-    const smallNav = document.querySelector('.sm-navbar__items') as HTMLElement; 
-    const hambuger = document.querySelector('.hambuger') as HTMLElement;
     stickOne.classList.toggle('stick-1__anim');
     stickTwo.classList.toggle('stick-2__anim');
     stickThree.classList.toggle('stick-3__anim');
     smallNav.classList.toggle('display-nav');
+  }
+  function closeNavbar() { 
+    changeHambuger();
+
   }
   return (
     <section className="navigation-bar">
@@ -45,9 +48,9 @@ function navbar() {
       </div>
       <div className="sm-navbar__items">
           <ul className="navbar-links">
-             <li><a href="#header">Home</a></li>
-             <li><a href="#about">About</a></li> 
-			       <li><a href="#work">Work </a></li> 
+             <li><a href="#header" onClick={closeNavbar}>Home</a></li>
+             <li><a href="#about" onClick={closeNavbar}>About</a></li> 
+			       <li><a href="#work" onClick={closeNavbar}>Work </a></li> 
           </ul>
          <a href="michael njuguna CV.pdf" download='michael njuguna cv'> <button className="navbar-btn">Download CV</button></a>
         </div>
