@@ -21,24 +21,14 @@
             font-size: 8vw;
             font-family: $paragraphFont;
             font-weight: bold;
-
-            .letter {
-                transition-property: all;
-                transition-duration: $animationDuration;
-                transition-timing-function: $animationTiming;
-                &:hover {
-                    color: $CTAColor;
-                    font-style: italic;
-                    font-size: 8.2vw;
-                }
-            }
+ 
         }
 
         .info-start {
             color: $textColor;
             font-size: 6vw;
             font-family: $paragraphFont;
-            font-weight: bold;
+            font-weight: bold; 
             opacity: $mainOpacity;
         }
 

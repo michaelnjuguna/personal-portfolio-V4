@@ -199,6 +199,9 @@
             font-family: $paragraphFont;
             font-size: 2rem;
             margin-block: 1rem;
+            a{
+                color:$textColor;
+            }
         }
     }
 }

@@ -6,6 +6,8 @@
   }  
   html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
+scroll-padding: 16vh;
   }
   body{
     background-color: $primaryBackground; 

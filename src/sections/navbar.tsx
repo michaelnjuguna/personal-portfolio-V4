@@ -34,6 +34,7 @@ function navbar() {
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="https://medium.com/@michaelnjuguna184" target="_blank" rel="noreferrer">Blog </a></li> 
           </ul>
         <a href="michael njuguna CV.pdf" download='michael njuguna cv'><button className="navbar-btn">Download CV</button></a>
@@ -51,6 +52,7 @@ function navbar() {
              <li><a href="#header" onClick={closeNavbar}>Home</a></li>
              <li><a href="#about" onClick={closeNavbar}>About</a></li> 
 			       <li><a href="#work" onClick={closeNavbar}>Work </a></li>
+             <li><a href="#contact" onClick={closeNavbar}>Contact </a></li>
 			       <li><a href="https://medium.com/@michaelnjuguna184" target="_blank" rel="noreferrer" onClick={closeNavbar}>Blog </a></li> 
 
           </ul>

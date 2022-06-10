@@ -6,7 +6,7 @@ function about() {
       <div className="container">
         <div className="about-content">
         <div className="about-img">
-          <img src="img1.jpg" alt="michael njuguna" />
+          <img loading='lazy' src="img1.jpg" alt="michael njuguna" />
         </div>
         <div className="about-info">
           <h1 className="about-header">About Me. </h1>

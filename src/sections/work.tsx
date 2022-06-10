@@ -6,12 +6,12 @@ import {   faUpRightFromSquare  } from '@fortawesome/free-solid-svg-icons'
 function Card(props: any) { 
   return (
     <div className="main-work__card">
-      <img src={props.src} alt={ props.alt} />
+      <img loading="lazy" src={props.src} alt={ props.alt} />
       <h1 className="title">{ props.title.toUpperCase() }.</h1>
       <h2 className="description">{props.description}.</h2>
       <div className="main-work__links">
-    <a href={props.site} target='_blank' rel='noreferrer' className="site-link">VISIT SITE</a>
-        <a href={props.github} target='_blank' rel='noreferrer' className="github-link">GITHUB LINK</a>
+    <a href={props.site} target='_blank' rel='noreferrer' className="site-link">Check It Out</a>
+        <a href={props.github} target='_blank' rel='noreferrer' className="github-link">Github Link</a>
         </div>
   </div>
   )
@@ -38,18 +38,18 @@ function Work() {
           <h1 className="about-header">Some Things I've Built.</h1>
           <div className="main-work">
            <Card src='img2.PNG' alt='VENDING MACHINES MANUFACTURER' title='vendor machine manufacturer' description='I built this project for my brother who had started a business of selling vending machines' site='https://vendingmachinemanufactures.netlify.app/' github='https://github.com/michaelnjuguna/Vendor-machine-manufactures'/>
-            <Card src='img3.PNG' alt='legit Movers' title='legit movers limited' description='This website is for a movers company' site='https://legit-movers-group.netlify.app/' github='https://github.com/michaelnjuguna/legit-movers' />
-            <Card src='img4.PNG' alt='Peter Chege' title='Peter chege' description='A personal portfolio for Peter Chege' site='http://peter-chege.netlify.app/#top-header' github='https://github.com/michaelnjuguna/chege-personal-portfolio'/>
+            <Card src='img3.PNG' alt='legit Movers' title='legit movers limited' description='This business website is for a movers company' site='https://legit-movers-group.netlify.app/' github='https://github.com/michaelnjuguna/legit-movers' />
+            <Card src='img4.jpg' alt='Machakos Uni students App' title='Machakos Uni students App' description='An app for Machakos university students' site='https://play.google.com/store/apps/details?id=com.michael.machakos' github='https://github.com/michaelnjuguna/Machakos-university-app'/>
           </div>
           <h2 className="about-sub__header">
             Other Noteworthy Projects.
           </h2>
           <div className="sub-work">
-            <SubCard github='https://github.com/michaelnjuguna/personal-portfolio-v1' externalLink='https://web-development-by-michael.netlify.app/' title='Personal Portfolio V1' description='My first personal portfolio when I was learning HTML,CSS and Bootstrap' />
+            <SubCard github='https://github.com/michaelnjuguna/chege-personal-portfolio' externalLink='http://peter-chege.netlify.app/#top-header' title='Chege Portfolio' description='A personal portfolio for Peter Chege' />
             <SubCard github='https://github.com/michaelnjuguna/personal-portfolio-v2' externalLink='https://mike-njuguna.netlify.app/' title='Personal Portfolio V2' description='My second personal portfolio' />
             <SubCard github='https://github.com/michaelnjuguna/personal-portfolio-v3' externalLink='https://michael-njuguna.netlify.app/' title='Personal Portfolio V3' description='My Third personal portfolio' />
           </div>
-          <h3 className="about-work">Contact me to see more relevant projects.</h3>
+          <h3 className="about-work">Check out all my projects <a href="https://github.com/michaelnjuguna?tab=repositories" target="_blank" rel="noreferrer">here</a> .</h3>
         </div>
       </div>
     </div>
