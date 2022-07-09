@@ -46,10 +46,12 @@ function Work() {
           </h2>
           <div className="sub-work">
             <SubCard github='https://github.com/michaelnjuguna/chege-personal-portfolio' externalLink='http://peter-chege.netlify.app/#top-header' title='Chege Portfolio' description='A personal portfolio for Peter Chege' />
-            <SubCard github='https://github.com/michaelnjuguna/personal-portfolio-v2' externalLink='https://mike-njuguna.netlify.app/' title='Personal Portfolio V2' description='My second personal portfolio' />
+            <SubCard github='https://github.com/michaelnjuguna/swahili-bootstrap' externalLink='https://github.com/michaelnjuguna/swahili-bootstrap' title='Swahili-Bootstrap' description='A Swahili version of the popular Bootstrap UI framework from Twitter' />
             <SubCard github='https://github.com/michaelnjuguna/personal-portfolio-v3' externalLink='https://michael-njuguna.netlify.app/' title='Personal Portfolio V3' description='My Third personal portfolio' />
           </div>
-          <h3 className="about-work">Check out all my projects <a href="https://github.com/michaelnjuguna?tab=repositories" target="_blank" rel="noreferrer">here</a> .</h3>
+          <h3 className="about-work">Check out all my code and projects <a href="https://github.com/michaelnjuguna?tab=repositories" target="_blank" rel="noreferrer">here</a> .</h3>
+           <h3 className="about-work">Check out all my mobile apps  <a href="https://play.google.com/store/apps/developer?id=michael+njuguna" target="_blank" rel="noreferrer">here</a> .</h3>
+          
         </div>
       </div>
     </div>
