@@ -37,7 +37,7 @@ function navbar() {
             <li><a href="#contact">Contact</a></li>
             <li><a href="https://medium.com/@michaelnjuguna184" target="_blank" rel="noreferrer">Blog </a></li> 
           </ul>
-        <a href="michael njuguna CV.pdf" download='michael njuguna cv'><button className="navbar-btn">Download CV</button></a>
+        <a href="michael njuguna cv.pdf" download='michael njuguna cv'><button className="navbar-btn">Download CV</button></a>
           <button className="hambuger" onClick={changeHambuger}>
             <div className="stick stick-1"></div>
             <div className="stick stick-2"></div>
@@ -56,7 +56,7 @@ function navbar() {
 			       <li><a href="https://medium.com/@michaelnjuguna184" target="_blank" rel="noreferrer" onClick={closeNavbar}>Blog </a></li> 
 
           </ul>
-         <a href="michael njuguna CV.pdf" download='michael njuguna cv'> <button className="navbar-btn">Download CV</button></a>
+         <a href="michael njuguna cv.pdf" download='michael njuguna cv'> <button className="navbar-btn">Download CV</button></a>
         </div>
       </section>
   );
