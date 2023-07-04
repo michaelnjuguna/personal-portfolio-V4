@@ -37,7 +37,7 @@ function contact() {
             <li>
               {" "}
               <a
-                href="https://www.linkedin.com/in/michael-njuguna-1216101b2/"
+                href="https://www.linkedin.com/in/michael-njuguna/"
                 target="_blank"
                 rel="noreferrer"
               >

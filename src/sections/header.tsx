@@ -31,7 +31,7 @@ function header() {
           <p className="info-main">I am a software engineer specializing in building and designing <br /> exceptional digital experiences.Currently, I am pursuing a degree <br /> in Math and Computer Science at <a href="https://www.mksu.ac.ke/">Machakos University</a>.</p>
           <a className="header-contact" href='#contact'>Contact me!</a>
           <ul className="media-links">
-            <a href="https://www.linkedin.com/in/michael-njuguna-1216101b2/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={ faLinkedinIn} /></a>
+            <a href="https://www.linkedin.com/in/michael-njuguna/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={ faLinkedinIn} /></a>
             <a href="https://github.com/michaelnjuguna" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faGithub } /></a>
             <a href="https://stackoverflow.com/users/15384644/michael-njuguna" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={ faStackOverflow } /></a>
             <a href="https://www.youtube.com/channel/UCrVQe-jlmfmkLrDuCzAhtnQ" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={ faYoutube} /></a>
