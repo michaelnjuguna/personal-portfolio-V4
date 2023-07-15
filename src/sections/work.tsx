@@ -37,21 +37,74 @@ function Work() {
         <div className="work-content">
           <h1 className="about-header">Some Things I've Built.</h1>
           <div className="main-work">
-           <Card src='img2.PNG' alt='VENDING MACHINES MANUFACTURER' title='vendor machine manufacturer' description='I built this project for my brother who had started a business of selling vending machines' site='https://vendingmachinemanufactures.netlify.app/' github='https://github.com/michaelnjuguna/Vendor-machine-manufactures'/>
-            <Card src='img3.PNG' alt='legit Movers' title='legit movers limited' description='This business website is for a movers company' site='https://legit-movers-group.netlify.app/' github='https://github.com/michaelnjuguna/legit-movers' />
-            <Card src='img4.jpg' alt='Machakos Uni students App' title='Machakos Uni students App' description='An app for Machakos university students' site='https://play.google.com/store/apps/details?id=com.michael.machakos' github='https://github.com/michaelnjuguna/Machakos-university-app'/>
+            <Card
+              src="img4.png"
+              alt="Machakos Uni students App"
+              title="Machakos Uni students App"
+              description="An android app for Machakos university students with over 1k downloads in the google playstore"
+              site="https://play.google.com/store/apps/details?id=com.michael.machakos"
+              github="https://github.com/michaelnjuguna/Machakos-university-app"
+            />
+            <Card
+              src="img2.PNG"
+              alt="VENDING MACHINES MANUFACTURER"
+              title="vendor machine manufacturer"
+              description="I built this project for my brother who had started a business of selling vending machines"
+              site="https://vendingmachinemanufactures.netlify.app/"
+              github="https://github.com/michaelnjuguna/Vendor-machine-manufactures"
+            />
+            <Card
+              src="img3.PNG"
+              alt="legit Movers"
+              title="legit movers limited"
+              description="This business website is for a movers company"
+              site="https://legit-movers-group.netlify.app/"
+              github="https://github.com/michaelnjuguna/legit-movers"
+            />
           </div>
-          <h2 className="about-sub__header">
-            Other Noteworthy Projects.
-          </h2>
+          <h2 className="about-sub__header">Other Open source Projects.</h2>
           <div className="sub-work">
-            <SubCard github='https://github.com/michaelnjuguna/chege-personal-portfolio' externalLink='http://peter-chege.netlify.app/#top-header' title='Chege Portfolio' description='A personal portfolio for Peter Chege' />
-            <SubCard github='https://github.com/michaelnjuguna/swahili-bootstrap' externalLink='https://github.com/michaelnjuguna/swahili-bootstrap' title='Swahili-Bootstrap' description='A Swahili version of the popular Bootstrap UI framework from Twitter' />
-            <SubCard github='https://github.com/michaelnjuguna/All-swahili-words-dictionary' externalLink='https://github.com/michaelnjuguna/All-swahili-words-dictionary' title='All-swahili-words-dictionary' description='A text file containing all Swahili words' />
+            <SubCard
+              github="https://github.com/michaelnjuguna/kenya-administrative-divisions"
+              externalLink="https://www.npmjs.com/package/kenya-administrative-divisions"
+              title="Kenya administrative divisions"
+              description="An npm package to get information about kenya administrative divisions i.e Counties. With over 15 stars on github"
+            />
+            <SubCard
+              github="https://github.com/michaelnjuguna/swahili-bootstrap"
+              externalLink="https://github.com/michaelnjuguna/swahili-bootstrap"
+              title="Swahili-Bootstrap"
+              description="A Swahili version of the popular Bootstrap UI framework from Twitter"
+            />
+            <SubCard
+              github="https://github.com/michaelnjuguna/All-swahili-words-dictionary"
+              externalLink="https://github.com/michaelnjuguna/All-swahili-words-dictionary"
+              title="All-swahili-words-dictionary"
+              description="A text file containing all Swahili words"
+            />
           </div>
-          <h3 className="about-work">Check out all my code and projects <a href="https://github.com/michaelnjuguna?tab=repositories" target="_blank" rel="noreferrer">here</a> .</h3>
-           <h3 className="about-work">Check out all my mobile apps  <a href="https://play.google.com/store/apps/developer?id=michael+njuguna" target="_blank" rel="noreferrer">here</a> .</h3>
-          
+          <h3 className="about-work">
+            Check out all my code and projects{" "}
+            <a
+              href="https://github.com/michaelnjuguna?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>{" "}
+            .
+          </h3>
+          <h3 className="about-work">
+            Check out all my mobile apps{" "}
+            <a
+              href="https://play.google.com/store/apps/developer?id=michael+njuguna"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>{" "}
+            .
+          </h3>
         </div>
       </div>
     </div>
