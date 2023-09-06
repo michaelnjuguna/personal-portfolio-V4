@@ -23,6 +23,7 @@ function navbar() {
           {/* brand */}
           <div className="navbar-brand" draggable="true">
             <div className="logo-borders">
+              
               <div className="d-1"></div>
               <div className="d-2"></div><br />
               <div className="d-3"></div>
